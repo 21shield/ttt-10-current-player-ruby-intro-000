@@ -5,7 +5,8 @@
   board.each do |curr_play|
     if curr_play == 'X' || curr_play == "O"
       count +=1
-    else count +=0
+    else 
+      count +=0
     end
   end
 end
