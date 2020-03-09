@@ -7,9 +7,10 @@ def turn_count(board)
   count = 0
     if char != '' || char != " "
       count +=1
-      return count
+      puts count
     else
-      return count
+      count +=0
     end
+    return count
    end
 end
