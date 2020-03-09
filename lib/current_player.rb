@@ -5,7 +5,7 @@
 def turn_count(board)
   board.each do |char|
   count = 0
-    if char != '' || char != " "
+    if char == 'X' || char == "O"
       count +=1
       puts count
     else
