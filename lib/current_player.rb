@@ -11,7 +11,5 @@ def turn_count(board)
     else
       count +=0
     end
-
-   end
-   return count
+  end
 end
