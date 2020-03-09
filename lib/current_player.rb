@@ -3,4 +3,12 @@
 
 
 def turn_count(board)
+  board.each do |char|
+  count = 0
+    if char != '' || char != " "
+      count +=1
+    else
+      return count
+    end
+   end  
 end
