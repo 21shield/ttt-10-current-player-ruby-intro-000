@@ -3,14 +3,15 @@
 
 
 def turn_count(board)
-  board.each do |char|
   count = 0
-    if char == 'X' || char == "O"
-      count +=1
-
-    else
-      count += 0
+  while count <= board.length-1
+    board.each do |char|
+      if char == 'X' || char == "O"
+        count +=1
+      else 
+        count +=0
+      end
     end
-    return count
   end
 end
+    
