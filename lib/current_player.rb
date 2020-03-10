@@ -7,9 +7,9 @@ def turn_count(board)
   count = 0
     if char == 'X' || char == "O"
       count +=1
-      return count
+      
     else
-      return count
+      count += 0
     end
   end
 end
